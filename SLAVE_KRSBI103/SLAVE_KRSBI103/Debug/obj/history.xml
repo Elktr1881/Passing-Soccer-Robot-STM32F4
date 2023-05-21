@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\SkripsiKU -I..\..\..\workspace\SLAVE_KRSBI103\stm_lib -I..\..\..\workspace\SLAVE_KRSBI103\stm_lib\inc -ID:\SkripsiKU\Code -ID:\SkripsiKU\Code\Library -I..\..\..\workspace -I..\..\..\workspace\SLAVE_KRSBI103\cmsis_boot -I..\..\..\workspace\SLAVE_KRSBI103\cmsis -I..\..\..\workspace\SLAVE_KRSBI103">
+      <target file="stm32f10x_adc.o" lastModified="187e42471b8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="187e411fc28"/>
+      </target>
+      <target file="syscalls.o" lastModified="187e42473c7">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="187e410e02c"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="187e4247060">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="187e41194ea"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="187e4246594">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="187e411cfa1"/>
+      </target>
+      <target file="printf.o" lastModified="187e4246dab">
+         <source file="..\..\..\stdio\printf.c" lastModified="187e4112118"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="187e4246670">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="187e4116323"/>
+      </target>
+      <target file="main.o" lastModified="187e4246b63">
+         <source file="..\..\..\main.c" lastModified="187e420f9ef"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="187e42472e7">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="187e4122919"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="187e424682a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="187e41162a4"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="187e4246f51">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="187e4116401"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="187e4246718">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="187e41162d2"/>
+      </target>
+      <target file="delay.o" lastModified="187e4246362">
+         <source file="D:\SkripsiKU\Code\Library\delay.c" lastModified="16157aea9c0"/>
+      </target>
+      <target file="misc.o" lastModified="187e42474a1">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="187e412b066"/>
+      </target>
+   </processor>
+</history>
